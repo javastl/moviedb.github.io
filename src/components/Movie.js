@@ -12,7 +12,6 @@ const Movie = ({ title, poster_path, overview, vote_average, genre_ids }) => {
       return "red";
     }
   };
-
   
   return (
     <div className="movie">
