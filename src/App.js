@@ -12,10 +12,7 @@ const SEARCH_API =
 const reactKey = process.env.REACT_APP_MOVIEDB_API_KEY;
 
 function App() {
-  console.log("Start of React App");
   
-  console.log(reactKey);
-
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
